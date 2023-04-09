@@ -20,15 +20,13 @@ struct ContentView: View {
                 Button(action:{
                     soundPlayer.cymbalPlay()
                 }){
-                    Image("cymbal")
-                        .renderingMode(.original)
+                    ButtonImageView(imageName:"cymbal")
                 }
                 
                 Button(action:{
                     soundPlayer.guitarPlay()
                 }){
-                    Image("guitar")
-                        .renderingMode(.original)
+                    ButtonImageView(imageName:"guitar")
                 }
             }
         }
