@@ -19,6 +19,7 @@
 		720F821629E6B3E800932768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		720F821829E6B3EA00932768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720F821B29E6B3EA00932768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		720F822229E6B43400932768 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		720F820829E6B3E800932768 = {
 			isa = PBXGroup;
 			children = (
+				720F822229E6B43400932768 /* README.md */,
 				720F821329E6B3E800932768 /* pomodoro_timer */,
 				720F821229E6B3E800932768 /* Products */,
 			);
