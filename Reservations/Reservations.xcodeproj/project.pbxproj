@@ -11,6 +11,7 @@
 		720F823229E7023A00932768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F823129E7023A00932768 /* ContentView.swift */; };
 		720F823429E7023D00932768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720F823329E7023D00932768 /* Assets.xcassets */; };
 		720F823729E7023D00932768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720F823629E7023D00932768 /* Preview Assets.xcassets */; };
+		720F823E29E9CB8300932768 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F823D29E9CB8300932768 /* ReservationForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		720F823129E7023A00932768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		720F823329E7023D00932768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720F823629E7023D00932768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		720F823D29E9CB8300932768 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				720F822F29E7023A00932768 /* ReservationsApp.swift */,
 				720F823129E7023A00932768 /* ContentView.swift */,
+				720F823D29E9CB8300932768 /* ReservationForm.swift */,
 				720F823329E7023D00932768 /* Assets.xcassets */,
 				720F823529E7023D00932768 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				720F823229E7023A00932768 /* ContentView.swift in Sources */,
 				720F823029E7023A00932768 /* ReservationsApp.swift in Sources */,
+				720F823E29E9CB8300932768 /* ReservationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

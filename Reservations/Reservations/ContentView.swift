@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var personCount: Int = 1
+    @State var customerName:String = ""
     var body: some View {
         VStack {
             Text("Little Lemon")
