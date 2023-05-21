@@ -20,13 +20,19 @@ struct ContentView: View {
             }onDecrement: {
                 personCount = (personCount == 1) ? 1 : personCount-1
             }
+            
+            NavigationView{
+                VStack{
+                    Text("Exercise 1")
+                }
+                .navigationTitle("Little Lemon")
+            }
+            .padding()
         }
-        .padding()
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(personCount: 10)
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
